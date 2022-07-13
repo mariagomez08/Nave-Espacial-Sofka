@@ -1,0 +1,23 @@
+{
+  "name": "nave-espacial-sofka",
+  "version": "1.0.0",
+  "description": "Prueba tecnica Julio 2022",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mariagomez08/Nave-Espacial-Sofka.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^6.4.4",
+    "nodemon": "^2.0.19"
+  },
+  "bugs": {
+    "url": "https://github.com/mariagomez08/Nave-Espacial-Sofka/issues"
+  },
+  "homepage": "https://github.com/mariagomez08/Nave-Espacial-Sofka#readme"
+}
