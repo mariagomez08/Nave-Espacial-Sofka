@@ -17,4 +17,4 @@ const insertarNave = async (tipoNave) => {
 
 }
 
-module.exports = insertarNave
+module.exports = insertarNave;
