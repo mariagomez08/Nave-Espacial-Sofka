@@ -5,19 +5,22 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title> Estacion Espacial Sofka</title>
         <link rel="stylesheet" href="buscar.css">
+        <script>
+            function submitForm() {
+              alert("Nave registrada");
+              //window.open("/here should be ur redirect link/");
+            }
+          </script>
     </head>
     <body>
         <h1> <b>Nave Espacial Sofka</b> </h1>
-        <form class="form">
+        <form class="form" action="http://localhost:4000/ingresarNave" method="POST">
             <h2>Bienvenido</h2>
-            <p type="Nombre nave"><input placeholder="Write your name here.."></input></p>
-            <p type="Tipo de nave:"><input placeholder="Let us know how to contact you back.."></input></p>
-            <p type="Message:"><input placeholder="What would you like to tell us.."></input></p>
-            <button>Send Message</button>
-            <div>
-              <span class="fa fa-phone"></span>001 1023 567
-              <span class="fa fa-envelope-o"></span> contact@company.com
-            </div>
+            <p type="Nombre nave"><input name="nombre" type="text" placeholder="Write your name here.."></input></p>
+            <p type="Tipo de nave:"><input name="tipo" type="text" placeholder="Let us know how to contact you back.."></input></p>
+            <p type="Message:"><input name="mensaje" type="text" placeholder="What would you like to tell us.."></input></p>
+            <button onclick="submitForm()" type="submit">Send Message</button>
+            
           </form>
 
     </body>
