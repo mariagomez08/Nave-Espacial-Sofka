@@ -5,13 +5,13 @@ class TipoNave1 extends Nave {
 
   constructor(nombre, velocidad, pais) {
     super(nombre, velocidad, pais);
-    this.tipo = "TipoNave1";
+    this.tipo = "Vehiculo Lanzadera";
   }
-  get TipoNave1() {
-    return this.TipoNave1;
+  get tipo() {
+    return this.tipo;
   }
-  set TipoNave1(nave1) {
-    this.nombre = nave1;
+  set tipo(nave1) {
+    this.tipo = nave1;
   }
 }
 

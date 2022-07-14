@@ -2,7 +2,7 @@ const NavesModelo = require('../modelos/navesModelo');
 
 export const buscarTodasLasNaves = async () => {
 
-    await NavesModelo.find({}, (error, respuesta) => {
+    await NavesModelo.find({}, (error, respuesta) => {//recibe la consulta {}, si esta vacia busca todo, respuesta proviene de find
         if (error){
             console.log(error);
         }

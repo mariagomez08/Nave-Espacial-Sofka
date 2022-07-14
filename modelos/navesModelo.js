@@ -31,5 +31,5 @@ const navesSchema = new mongoose.Schema({
     timestamps: true    //Muestre fecha en documento
 });
 
-//Exportando modelo para quien quiera usarlo
+//Exportando modelo para los documentos de la BDpara quien quiera usarlo
 module.exports = mongoose.model('naves', navesSchema);

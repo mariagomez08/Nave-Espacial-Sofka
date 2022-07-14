@@ -7,6 +7,10 @@ const mongoose = require('mongoose');
         .catch( error => {console.log('Error al conectar con la base de datos', error)});
 })();
 
-const TipoNave1 = require('./modelos/TipoNave1')
 
-let tipoNave1 = new TipoNave1('Julia','50','veneco')
+
+
+
+
+
+
